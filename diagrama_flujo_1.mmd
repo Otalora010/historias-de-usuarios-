@@ -29,7 +29,7 @@ M --> N{¿cantidad <= 0?}
 N -->|Sí| O[Ingresar cantidad como texto]
 O --> P{¿Es número entero?}
 
-P -->|No| Q[Mostrar error]
+P -->|No| Q[Mostrar error]x|
 Q --> N
 
 P -->|Sí| R[Convertir a int]
