@@ -4,7 +4,7 @@
 inventario = []
 
 
-# ------------------ FUNCIÓN: AGREGAR PRODUCTO ------------------
+#  AGREGAR PRODUCTO
 def agregar_producto():
     """
     Solicita al usuario los datos de un producto (nombre, precio y cantidad)
@@ -54,7 +54,7 @@ def agregar_producto():
     print("Producto agregado correctamente.\n")
 
 
-# ------------------ FUNCIÓN: MOSTRAR INVENTARIO ------------------
+# MOSTRAR INVENTARIO ------------------
 def mostrar_inventario():
     """
     Recorre el inventario y muestra todos los productos.
@@ -70,7 +70,7 @@ def mostrar_inventario():
         print()
 
 
-# ------------------ FUNCIÓN: CALCULAR ESTADÍSTICAS ------------------
+# ----------------- CALCULAR ESTADÍSTICAS ------------------
 def calcular_estadisticas():
     """
     Calcula:
@@ -104,7 +104,6 @@ def menu():
 
     opcion = ""
 
-    # Bucle controlado (NO while True)
     while opcion != "4":
         print("=== MENÚ INVENTARIO ===")
         print("1. Agregar producto")
@@ -125,8 +124,6 @@ def menu():
         else:
             print("Opción inválida. Intente nuevamente.\n")
 
-
-# ------------------ EJECUCIÓN DEL PROGRAMA ------------------
 menu()
 
 
@@ -141,5 +138,4 @@ El sistema permite:
 - Mostrar el inventario completo
 - Calcular estadísticas básicas
 
-El objetivo es practicar lógica de programación y organización del código.
 """
